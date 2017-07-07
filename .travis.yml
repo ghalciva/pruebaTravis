@@ -4,7 +4,7 @@ php:
 dist:
   - xenial
 script:
-  - pruebaPhp.php
+  - phpunit pruebaPhp.php
 env:
   - TASKS='test'
 notifications:
